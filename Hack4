@@ -1,0 +1,19 @@
+// CPP code of the above approach
+#include <bits/stdc++.h>
+using namespace std;
+
+// Function to add 2 numbers using log and power
+int Add(int a, int b)
+{
+	int ans = log2(pow(2, a) * pow(2, b));
+	return ans;
+}
+
+int main()
+{
+	int a = 10, b = 5;
+	cout << Add(a, b) << endl;
+	return 0;
+}
+
+// This code is contributed by Susobhan Akhuli
