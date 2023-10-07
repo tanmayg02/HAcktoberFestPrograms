@@ -1,0 +1,9 @@
+int Add(int x, int y)
+{
+	if (y == 0)
+		return x;
+	else
+		return Add( x ^ y,(unsigned) (x & y) << 1);
+}
+
+// This code is contributed by shubhamsingh10
